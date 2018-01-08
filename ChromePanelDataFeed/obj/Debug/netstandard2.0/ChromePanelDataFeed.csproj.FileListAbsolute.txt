@@ -1,0 +1,9 @@
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\obj\Debug\netstandard2.0\ChromePanelDataFeed.pdb
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\bin\Debug\netstandard2.0\ChromePanelDataFeed.deps.json
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\bin\Debug\netstandard2.0\ChromePanelDataFeed.dll
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\bin\Debug\netstandard2.0\ChromePanelDataFeed.pdb
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\obj\Debug\netstandard2.0\ChromePanelDataFeed.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\obj\Debug\netstandard2.0\ChromePanelDataFeed.csproj.CoreCompileInputs.cache
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\obj\Debug\netstandard2.0\ChromePanelDataFeed.AssemblyInfoInputs.cache
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\obj\Debug\netstandard2.0\ChromePanelDataFeed.AssemblyInfo.cs
+c:\users\carlos\documents\visual studio 2017\Projects\ChromePanelDataFeed\ChromePanelDataFeed\obj\Debug\netstandard2.0\ChromePanelDataFeed.dll
