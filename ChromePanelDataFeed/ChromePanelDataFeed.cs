@@ -28,22 +28,26 @@ namespace ChromePanelDataFeed
 
         private void SendBookmarks(string bookmarkLocation, IPanelCommunicator communicator)
         {
-            try
+            var retryCount = 0;
+            while (retryCount < 5)
             {
-                using (FileStream stream = File.Open(bookmarkLocation, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                try
                 {
-                    using (StreamReader reader = new StreamReader(stream))
+                    using (FileStream stream = File.Open(bookmarkLocation, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                     {
-                        var bookmarksJson = reader.ReadToEnd();
-                        communicator.SendMessageToPanel(bookmarksJson);
+                        using (StreamReader reader = new StreamReader(stream))
+                        {
+                            var bookmarksJson = reader.ReadToEnd();
+                            communicator.SendMessageToPanel(bookmarksJson);
+                            break;
+                        }
                     }
                 }
+                catch (IOException e)
+                {
+                    retryCount++;
+                }
             }
-            catch(Exception e)
-            {
-                Thread.Sleep(1000);
-                SendBookmarks(bookmarkLocation, communicator);
-            }   
         }
 
         public void Start(IDataFeedContext dataFeedContext, IPanelCommunicator panelCommunicators)
